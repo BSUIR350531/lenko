@@ -1,0 +1,14 @@
+﻿Сборка начата 12.12.2015 22:38:24.
+     1>Проект "C:\Users\DIAS\Desktop\opencv1\opencv1\opencv1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         M:\Визуал\VC\bin\CL.exe /c /IM:\opencv\build\include /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\opencv1.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt opencv1.cpp
+         opencv1.cpp
+       Link:
+         M:\Визуал\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DIAS\Desktop\opencv1\x64\Debug\opencv1.exe" /INCREMENTAL /NOLOGO /LIBPATH:M:\opencv\build\x64\vc12\lib opencv_ml249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib opencv_core249d.lib opencv_video249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DIAS\Desktop\opencv1\x64\Debug\opencv1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DIAS\Desktop\opencv1\x64\Debug\opencv1.lib" /MACHINE:X64 x64\Debug\opencv1.obj
+         x64\Debug\stdafx.obj
+     1>x64\Debug\opencv1.obj : fatal error LNK1112: тип компьютера модуля "X86" противоречит типу целевого компьютера "x64"
+     1>Сборка проекта "C:\Users\DIAS\Desktop\opencv1\opencv1\opencv1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:01.90
